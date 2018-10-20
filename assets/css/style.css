@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    background-color: turquoise;
+    margin-top: auto;
+    margin-left: 17%;
+    padding-top: 20px;   
+}
+
+.list {
+    text-align: right;
+    font-size: 20px;
+    color: gray;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: 5px;
+    margin-right: 250px;
+    word-spacing: 20px;
+}
+.list a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+#aboutme {
+    background-image: url(../images/gravel.png);
+    background-repeat: repeat;
+    background-position: top;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    margin: auto;
+    border-top: 2px solid darkgray;
+
+}
+
+#insideaboutme {
+    position: absolute;
+    right: 235px;
+    bottom: 160px;
+    width: 960px;
+    height: 460px;
+    padding: 20px;
+    background: white;
+    color: turquoise;
+}
+
+hr {
+    border-width: 1px;
+    border-color: gray;
+}
+
+#family {
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    margin-top: -10px;
+    z-index: -3;
+}
+
+#familybar {
+    position: absolute;
+    top: 185px;
+    left: 127px;
+    width: 230px;
+    height: 40px;
+    background-color: turquoise;
+    margin-left: -77px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#dogs {
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    margin-top: -10px;
+    z-index: -3;
+}
+
+#dogbar {
+    position: absolute;
+    top: 203px;
+    left: 470px;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 40px;
+    background-color: turquoise;
+    margin: 1px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+#travel {
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    margin-top: -10px;
+    z-index: -3;
+}
+
+#travelbar {
+    position: absolute;
+    top: 185px;
+    right: 150px;
+    width: 230px;
+    height: 40px;
+    background-color: turquoise;
+    margin-right: -83px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#cosplay {
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    margin-top: -30px;
+    z-index: -3px;
+}
+
+#cosplaybar {
+    position: absolute;
+    bottom: 57px;
+    left: 433px;
+    width: 230px;
+    height: 40px;
+    background-color: turquoise;
+    margin-left: -77px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#yachtrock {
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    margin-top: -30px;
+    z-index: -3px;
+}
+
+#yachtrockbar {
+    position: absolute;
+    bottom: 57px;
+    left: 127px;
+    width: 230px;
+    height: 40px;
+    background-color: turquoise;
+    margin-left: -77px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 5px; 
+}
+
+#cooking {
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    margin-top: -30px;
+    z-index: -3px;
+}
+
+#cookingbar {
+    position: absolute;
+    bottom: 57px;
+    right: 67px;
+    width: 230px;
+    height: 40px;
+    background-color: turquoise;
+    margin-left: -77px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    float: left;
+    padding-right: 20px;
+}
+
+.writing {
+    font-size: 24px;
+    color: gray;
+    text-indent: 20px;
+    margin-left: auto;
+    line-height: 29px;
+}
+
+.titles {
+    font-size: 18px;
+    color: turquoise;
+    margin-top: -5px;
+}
+
+.titles input {
+    width: 923px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    border-width: 1px;
+}
+
+.messagebox {
+    font-size: 18px;
+    color: turquoise;
+    margin-top: -13px;
+}
+
+.messagebox textarea {
+    margin-top: 5px;
+}
+
+.messagebox input {
+    background-color: turquoise;
+    margin-top: 5px;
+    width: 70px;
+    height: 25px;
+    color: white;
+    font-size: 16px;
+}
+
+#solo {
+    font-size: 24px;
+    color: gray;
+    text-indent: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+    line-height: 29px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    height: 12%;
+    background-color: darkgrey;
+    margin: auto;
+    border-top: 5px solid turquoise;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
